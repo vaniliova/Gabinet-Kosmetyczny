@@ -1,0 +1,71 @@
+//hamburger
+.hamburger {
+  display: block;
+  .hamburger__btn {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    cursor: pointer;
+    background: none;
+    border: 0;
+    outline: 0;
+  }
+  .line {
+    position: absolute;
+    z-index: 1000;
+    width: 25px;
+    height: 2px;
+    border-radius: 2px;
+    background: grey;
+    transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) .5s; //TODO
+  }
+  .line1 {
+    top: 10px;
+    left: 5px;
+  }
+  .line2 {
+    top: 17px;
+    left: 5px;
+  }
+  .line3 {
+    top: 24px;
+    left: 5px;
+  }
+  .hamburger__btn.close .line1 {
+    transform: rotate(45deg);
+    top: 50%;
+  }
+  .hamburger__btn.close .line2, .hamburger__btn.close .line3 {
+    transform: rotate(-45deg);
+    top: 50%;
+  }
+}//end hamburger
+
+.show {
+  display: block;
+}
+
+.navigation {
+  height: 65px;
+  border-bottom: 1px solid grey;
+  position: fixed;
+  background: $white;
+  z-index: 100;
+  &__link {
+    &__logo {
+      width: 200px;
+    }
+    &__social {
+
+    }
+  }
+  .nav {
+    &__list {
+      &__item {
+        a {
+          padding: 10px 40px;
+        }
+      }
+    }
+  }
+}
