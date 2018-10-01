@@ -1,10 +1,30 @@
+.recomendation {
+  position: relative;
+  .goToNextSlide, .goToPrevSlide {
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50px);
+    cursor: pointer;
+  }
+  .goToPrevSlide{
+    left: 130px;
+  }
+  .goToNextSlide{
+    right: 30px;
+  }
+}
 .recomendation__list {
+  min-height: 360px;
+
   .recomendation__list__item {
-    background: lightgrey;
+    border: 1px solid $black;
     width: 300px;
     height: 300px;
     padding: 30px;
+    margin: 20px 0;
     text-align: center;
+    transition: all .1s linear;
+
     .recomendation__list__item__img {
 
     }
@@ -15,4 +35,11 @@
       font-size: 12px
     }
   }
+
+  .recomendation__list__item.active + li {
+    width: 350px;
+    height: 350px;
+    margin: 0;
+  }
+
 }

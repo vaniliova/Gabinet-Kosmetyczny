@@ -1,12 +1,8 @@
 .about {
+  background: $bg-pink;
+  margin-top: 20px;
   min-height: 600px;
-  // background: url('')
   position: relative;
-  &__ornament {
-    position: absolute;
-    left: -50%;
-    bottom: -50%;
-  }
   &__header {
     text-align: center;
     font-family: 'Montserrat', sans-serif;

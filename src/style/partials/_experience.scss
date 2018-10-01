@@ -1,0 +1,27 @@
+.experience {
+  background: $white;
+  margin-top: 20px;
+  height: 580px;
+  position: relative;
+  &__ornament {
+    position: absolute;
+    max-width: 900px;
+    right: -30%;
+    bottom: -323px;
+  }
+  .section-header {
+    z-index: 1;
+  }
+  &__text {
+    z-index: 1;
+  }
+  &__img {
+    max-width: 250px;
+  }
+  .certificate-gallery {
+    .button {
+      color: gray;
+      z-index: 1;
+    }
+  }
+}

@@ -47,7 +47,6 @@
 
 .navigation {
   height: 65px;
-  // border-bottom: 1px solid grey;
   position: fixed;
   background: $white;
   z-index: 100;
@@ -63,11 +62,10 @@
     &__list {
       &__item {
         a {
-          padding: 10px 40px;
+          padding: 10px 30px;
           font-family: 'Montserrat', sans-serif;
           text-transform: uppercase;
-          // font-weight: 600;
-          font-size: 22px;
+          font-size: 18px;
         }
       }
     }

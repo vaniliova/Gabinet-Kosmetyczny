@@ -48,7 +48,7 @@ $(() => {
    });
 
    //Home page sliders
-      var slider = $("#lightSlider").lightSlider({
+      var slider = $("#lightSlider-opinions").lightSlider({
          item: 3,
          loop: true,
          slideMargin: 50,
@@ -57,13 +57,35 @@ $(() => {
          pause: 5000,
          pauseOnHover: true,
          controls: false,
+         centerSlide: true,
+         adaptiveHeight:true,
+         pager: false,
        });
 
-       $('#goToPrevSlide').on('click', function () {
+       $('.goToPrevSlide').on('click', function () {
            slider.goToPrevSlide();
        });
-       $('#goToNextSlide').on('click', function () {
+       $('.goToNextSlide').on('click', function () {
            slider.goToNextSlide();
        });
+
+       var sliderNews = $("#lightSlider-news").lightSlider({
+          item: 3,
+          loop: true,
+          slideMargin: 50,
+          auto: false,
+          speed: 800,
+          pause: 5000,
+          pauseOnHover: true,
+          controls: false,
+
+        });
+
+        // $('.goToPrevSlide').on('click', function () {
+        //     sliderNews.goToPrevSlide();
+        // });
+        // $('.goToNextSlide').on('click', function () {
+        //     sliderNews.goToNextSlide();
+        // });
 
 }); //end of DOMContentLoaded

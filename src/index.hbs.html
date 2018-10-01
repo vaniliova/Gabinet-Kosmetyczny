@@ -1,137 +1,194 @@
 {{> partials/header.hbs.html pageName="page-index"}}
 {{> partials/navigation.hbs.html pageName="page-index"}}
 
-<div class="hero container-fluid">
+<section class="hero">
   <div class="container">
     <div class="row">
 
-      <main class="main col-5 offset-7 d-flex flex-column justify-content-center align-items-start">
-
-        <h1 class="main__header">
-          Gabinet Kosmetyczny <br> Sylwia&nbsp;Shawket
+      <header class="header col-5 offset-7 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="header__title">
+          <span class="header__title--small">Gabinet Kosmetyczny</span>
+          Sylwia&nbsp;Shawket
         </h1>
-
-        <h2 class="main__header">
-          <!-- 25 lat doświadczenia i tradycji pozwala mi oferwać usługi na najwyższym poziomie. -->
+        <h2 class="header__subtitle">
+          25 lat doświadczenia i tradycji pozwala mi oferwać usługi na najwyższym poziomie
         </h2>
-
-        <a href="#about" class="main__button button">Poznaj mnie</a>
-
-      </main>
+        <a href="#about" class="header__button button">Poznaj mnie</a>
+      </header>
 
     </div>
   </div>
-</div>
+</section>
 
-<div class="news container-fluid">
+<!-- <section class="news" id="news">
   <div class="container">
     <div class="row">
 
-      <main class="d-flex flex-column justify-content-center align-items-start">
+      <h2 class="col-12 section-header">Aktualności</h2>
 
-        <div class="slider">Slider</div>
-
-      </main>
+      <ul class="news__list" id="lightSlider-news">
+        <li class="news__list__link col-12 col-md-4">
+          <a href="#" class="news__list__link">
+            <img src="../img/277.jpg" alt="" class="news__list__img">
+            <h2 class="news__list__title">Mikrodermabrazja odmładza!</h2>
+            <p class="news__list__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quisquam laborum, unde impedit doloremque laudantium.
+            </p>
+          </a>
+        </li>
+        <li class="news__list__link col-12 col-md-4">
+          <a href="#" class="news__list__link">
+            <img src="../img/277.jpg" alt="" class="news__list__img">
+            <h2 class="news__list__title">Mikrodermabrazja odmładza!</h2>
+            <p class="news__list__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum perspiciatis omnis, sapiente ab sed ullam.
+            </p>
+          </a>
+        </li>
+        <li class="news__list__link col-12 col-md-4">
+          <a href="#" class="news__list__link">
+            <img src="../img/277.jpg" alt="" class="news__list__img">
+            <h2 class="news__list__title">Mikrodermabrazja odmładza!</h2>
+            <p class="news__list__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, eos. Odio aut, accusantium dolor voluptatum.
+            </p>
+          </a>
+        </li>
+        <li class="news__list__link col-12 col-md-4">
+          <a href="#" class="news__list__link">
+            <img src="../img/277.jpg" alt="" class="news__list__img">
+            <h2 class="news__list__title">Mikrodermabrazja odmładza!</h2>
+            <p class="news__list__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium dolores consequuntur fugit odit beatae, amet!
+            </p>
+          </a>
+        </li>
+        <li class="news__list__link col-12 col-md-4">
+          <a href="#" class="news__list__link">
+            <img src="../img/277.jpg" alt="" class="news__list__img">
+            <h2 class="news__list__title">Mikrodermabrazja odmładza!</h2>
+            <p class="news__list__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus sint velit, aspernatur iste placeat assumenda!
+            </p>
+          </a>
+        </li>
+        <li class="news__list__link col-12 col-md-4">
+          <a href="#" class="news__list__link">
+            <img src="../img/277.jpg" alt="" class="news__list__img">
+            <h2 class="news__list__title">Mikrodermabrazja odmładza!</h2>
+            <p class="news__list__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt magnam iure non, facere quia alias!
+            </p>
+          </a>
+        </li>
+      </ul>
 
     </div>
   </div>
-</div>
+</section> -->
 
-<div class="container-fluid">
+<section class="about" id="about">
   <div class="container">
     <div class="row">
 
-      <section class="about col-12">
-        <!-- <img src="../img/ornament.jpg" alt="" class="about__ornament"> -->
+        <h2 class="col-12 section-header">O mnie</h2>
 
-        <h2 class="about__header">O mnie</h2>
-
-        <div class="d-flex flex-column flex-md-row justify-content-md-center align-items-md-center">
+        <div class="col-12 d-flex flex-column flex-md-row justify-content-md-center align-items-md-center">
+          <img src="/img/kosmetolog.jpg" alt="mgr Sylwia Shawket" class="about__img col-4">
           <div class="about__text col-8">
             <div class="about__text__paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat reprehenderit maiores earum dolor eveniet, sed soluta repellat. Alias sint repudiandae laudantium iure quisquam nesciunt aspernatur porro! Nemo, eos, vitae. Assumenda.
+              Nazywam sie Sylwia i od 10 lat prowadze własny, jednoosobowy Gabinet Kosmetyczny. Praca w pojedynkę sprawia, że jestem w stanie całkowicie poświęcić swoja uwagę na klientce oferując jej przez to najwyższą jakość usługi stwarzając jednocześnie prywatną i relaksująca atmosferę podczas zabiegu.
             </div>
             <div class="about__text__paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat reprehenderit maiores earum dolor eveniet, sed soluta repellat. Alias sint repudiandae laudantium iure quisquam nesciunt aspernatur porro! Nemo, eos, vitae. Assumenda.
+              Zajmuje się kosmetologią, trychologią, depilacją i wszelaka pielęgnację skóry twarzy jak i ciała. Dodatkowo w moim Gabinecie oferuję manicure pielęgnacyjny, malowanie paznokci jak i hybrydę ze zdobieniami.
+              Zapraszam!
             </div>
           </div>
-
-          div.certificate-gallery
-          
-
-          <img src="/img/kosmetolog.jpg" alt="mgr Sylwia Shawket" class="about__img col-4">
         </div>
-
-      </section>
 
     </div>
   </div>
-</div>
+</section>
 
-<div class="container-fluid salon-offer">
+<section class="experience" id="experience">
   <div class="container">
     <div class="row">
 
-      <section class="col-12 offer">
+        <h2 class="col-12 section-header">Doświadczenie</h2>
+        <div class="col-12 d-flex flex-column flex-md-row justify-content-md-center align-items-md-center">
+          <div class="experience__text col-8">
+            <div class="experience__text__paragraph">
+              Moje doświadczenie w branży kosmetycznej jest wypadkową 25letniej pray zawodowej, nieustającego samoszkolenia oraz udziale w niezliczonej liczbi ekoferencji poświęconych tematyce piękna.
+            </div>
+          </div>
+
+          <div class="certificate-gallery">
+            <button class="button">
+              Zobacz galerię certyfikatów
+            </button>
+          </div>
+
+          <img src="../img/face.jpg" alt="" class="experience__ornament">
+        </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="salon-offer" id="offer">
+  <div class="container">
+    <div class="row">
+
+      <h2 class="col-12 section-header">Oferta</h2>
+
+      <div class="col-12">
         <div class="row">
 
-          <h2 class="col-12 offer__header">Oferta</h2>
+          <div class="col-12 col-md-6 col-lg-4 offer__type">
+            <img src="../img/twarz1.jpg" alt="" class="offer__type__img">
+            <h3 class="offer__type__name">Twarz</h3>
+          </div>
 
-          <div class="col-12">
-            <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 offer__type">
+            <img src="../img/paznokcie1.jpg" alt="" class="offer__type__img">
+            <h3 class="offer__type__name">Paznokcie</h3>
+          </div>
 
-              <div class="col-12 col-md-6 col-lg-4 offer__type">
-                <img src="../img/twarz1.jpg" alt="" class="offer__type__img">
-                <h3 class="offer__type__name">Twarz</h3>
-              </div>
+          <div class="col-12 col-md-6 col-lg-4 offer__type">
+            <img src="../img/depilacja1.jpg" alt="" class="offer__type__img">
+            <h3 class="offer__type__name">Depilacja</h3>
+          </div>
 
-              <div class="col-12 col-md-6 col-lg-4 offer__type">
-                <img src="../img/paznokcie1.jpg" alt="" class="offer__type__img">
-                <h3 class="offer__type__name">Paznokcie</h3>
-              </div>
+          <div class="col-12 col-md-6 col-lg-4 offer__type">
+            <img src="../img/cialo1.jpg" alt="" class="offer__type__img">
+            <h3 class="offer__type__name">Ciało</h3>
+          </div>
 
-              <div class="col-12 col-md-6 col-lg-4 offer__type">
-                <img src="../img/depilacja1.jpg" alt="" class="offer__type__img">
-                <h3 class="offer__type__name">Depilacja</h3>
-              </div>
+          <div class="col-12 col-md-6 col-lg-4 offer__type">
+            <img src="../img/konsultacje1.jpg" alt="" class="offer__type__img">
+            <h3 class="offer__type__name">Konsultacje</h3>
+          </div>
 
-              <div class="col-12 col-md-6 col-lg-4 offer__type">
-                <img src="../img/cialo1.jpg" alt="" class="offer__type__img">
-                <h3 class="offer__type__name">Ciało</h3>
-              </div>
-
-              <div class="col-12 col-md-6 col-lg-4 offer__type">
-                <img src="../img/konsultacje1.jpg" alt="" class="offer__type__img">
-                <h3 class="offer__type__name">Konsultacje</h3>
-              </div>
-
-              <div class="col-12 col-md-6 col-lg-4 offer__type">
-                <img src="../img/warsztaty1.jpg" alt="" class="offer__type__img">
-                <h3 class="offer__type__name">Warsztaty</h3>
-              </div>
-
-            </div>
-
-
-
+          <div class="col-12 col-md-6 col-lg-4 offer__type">
+            <img src="../img/warsztaty1.jpg" alt="" class="offer__type__img">
+            <h3 class="offer__type__name">Warsztaty</h3>
           </div>
 
         </div>
-
-
-      </section>
+      </div>
 
     </div>
   </div>
-</div>
+</section>
 
-<div class="container-fluid salon-recomendation">
+<section class="recomendation" id="opinions">
   <div class="container">
     <div class="row">
 
-      <h2 class="col-12 offer__header">Rekomendacje</h2>
+      <h2 class="col-12 section-header">Rekomendacje</h2>
 
-      <ul class="recomendation__list" id="lightSlider">
+      <img src="../img/chevron-left.svg" alt="W lewo" class="goToPrevSlide">
+      <ul class="recomendation__list" id="lightSlider-opinions">
         <li class="recomendation__list__item">
           <img src="" alt="" class="recomendation__list__item__img">
           <h3 class="recomendation__list__item__name">Anna Sokołowska</h3>
@@ -168,47 +225,43 @@
           </p>
         </li>
       </ul>
+      <img src="../img/chevron-right.svg" alt="W lewo" class="goToNextSlide">
 
     </div>
   </div>
-</div>
+</section>
 
-<div class="container-fluid container_contact">
+<section class="contact" id="contact">
   <div class="container">
     <div class="row">
 
       <img src="../img/footer-logo.png" alt="" class="contact__bg-img">
-      <section class="col-12 contact">
-        <div class="row">
-          <h2 class="col-12 contact__header">Kontakt</h2>
 
-          <p class="contact__paragraph">
-            Zadzwoń i umów się na wizytę!
-          </p>
+      <h2 class="col-12 section-header">Kontakt</h2>
 
-          <div class="contact__phone">
-            <a href="tel:604970316" class="contact__phone__link">tel: 604 970 316</a>
-          </div>
+      <p class="contact__paragraph">
+        Zadzwoń i umów się na wizytę!
+      </p>
 
-          <div class="contact__address">
-            <span class="contact__address__line">ul. Piotrkowska 24</span>
-            <span class="contact__address__line">93-000 Łódź</span>
-          </div>
+      <div class="contact__phone">
+        <a href="tel:604970316" class="contact__phone__link">tel: 604 970 316</a>
+      </div>
 
-          <div class="contact__add">
-            <p class="contact__add__paragraph">
-              Gabinet znajduje sie w bramie po lewej stronie na wysokości Fielmanna i Magdy
-            </p>
-          </div>
-        </div>
+      <div class="contact__address">
+        <span class="contact__address__line">ul. Piotrkowska 24</span>
+        <span class="contact__address__line">93-000 Łódź</span>
+      </div>
 
+      <div class="contact__add">
+        <p class="contact__add__paragraph">
+          Gabinet znajduje sie w bramie po lewej stronie na wysokości Fielmanna i Magdy
+        </p>
+      </div>
 
-
-      </section>
 
     </div>
   </div>
-</div>
+</section>
 
 
 {{> partials/cookies.hbs.html}}
