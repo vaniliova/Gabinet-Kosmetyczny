@@ -1,4 +1,21 @@
 .container_contact {
   background: $bg;
   margin-top: 50px;
+  position: relative;
+  .contact {
+
+    &__bg-img {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translateX(-50px);
+    }
+    .contact__header {
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 32px;
+      padding: 100px 50px 50px;
+      text-transform: uppercase;
+    }
+  }
 }

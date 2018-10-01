@@ -47,7 +47,7 @@
 
 .navigation {
   height: 65px;
-  border-bottom: 1px solid grey;
+  // border-bottom: 1px solid grey;
   position: fixed;
   background: $white;
   z-index: 100;
@@ -56,7 +56,7 @@
       width: 200px;
     }
     &__social {
-
+      font-family: 'Montserrat', sans-serif;
     }
   }
   .nav {
@@ -64,6 +64,10 @@
       &__item {
         a {
           padding: 10px 40px;
+          font-family: 'Montserrat', sans-serif;
+          text-transform: uppercase;
+          // font-weight: 600;
+          font-size: 22px;
         }
       }
     }

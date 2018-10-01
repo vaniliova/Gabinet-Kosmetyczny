@@ -5,7 +5,14 @@
   .main {
     height: 100vh;
     &__header {
-      max-width: 500px;
+      // max-width: 500px;
+      color: $white;
+      font-size: 45px;
+      font-family: 'Montserrat', sans-serif;
+      // text-shadow: 1px 0px 1px rgba(150, 150, 150, 1);
+    }
+    &__button {
+      font-family: 'Montserrat', sans-serif;
     }
   }
 }

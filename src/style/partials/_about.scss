@@ -1,7 +1,18 @@
 .about {
   min-height: 600px;
+  // background: url('')
+  position: relative;
+  &__ornament {
+    position: absolute;
+    left: -50%;
+    bottom: -50%;
+  }
   &__header {
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    padding: 100px 50px 50px;
+    text-transform: uppercase;
   }
   &__text {
 

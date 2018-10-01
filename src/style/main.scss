@@ -7,6 +7,7 @@ $fa-font-path:'../../node_modules/font-awesome/fonts';
 
 @import 'layout/fonts';
 @import 'layout/colors';
+@import 'layout/buttons';
 
 @import 'partials/navigation';
 @import 'partials/footer';
@@ -15,5 +16,6 @@ $fa-font-path:'../../node_modules/font-awesome/fonts';
 @import 'partials/about';
 @import 'partials/offer';
 @import 'partials/contact';
+@import 'partials/recomendation';
 
 @import 'pages/index';

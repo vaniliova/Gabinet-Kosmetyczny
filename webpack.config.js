@@ -55,14 +55,7 @@ module.exports = {
     entry: {
         'main' : [path.resolve(__dirname, 'src/script/script.js'),
                   path.resolve(__dirname, 'src/style/main.scss')],
-        'vendors' : ['jquery',
-                      // 'lightslider',
-                      // 'lightgallery',
-                      // path.resolve(__dirname, 'src/script/bootstrap-custom.js'),
-                      // path.resolve(__dirname, 'node_modules/lightslider/src/css/lightslider.css'),
-                      // path.resolve(__dirname, 'node_modules/lightgallery/src/css/lightgallery.css'),
-                      // path.resolve(__dirname, 'src/style/bootstrap/_bootstrap-custom.scss')
-                    ]
+        'vendors' : ['jquery', 'lightslider', 'lightslider/dist/css/lightslider.css'],
     },
     output: {
         path: path.resolve(__dirname, 'dist'),

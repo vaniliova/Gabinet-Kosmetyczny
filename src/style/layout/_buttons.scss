@@ -1,0 +1,21 @@
+.button {
+  height: 75px;
+  width: auto;
+  padding: 0 30px;
+  background: transparent;
+  color: $white;
+  border: 1px solid $white;
+  line-height: 75px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'PlayfairDisplay-Bold';
+  font-size: 24px;
+  &:visited {
+    color: $white;
+  }
+  &:hover, &:active, &:focus {
+    color: $white;
+  }
+
+}
