@@ -9,7 +9,7 @@
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: 'PlayfairDisplay-Bold';
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   &:visited {
     color: $white;
@@ -18,4 +18,8 @@
     color: $white;
   }
 
+  &.invert {
+    border: 1px solid darken($bg, 15%);
+    color: darken($bg, 15%);
+  }
 }

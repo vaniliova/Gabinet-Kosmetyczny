@@ -1,27 +1,37 @@
 .experience {
   background: $white;
-  margin-top: 20px;
-  height: 580px;
+  // margin-top: 6px;
+  // margin-bottom: 14px;
+  height: 600px;
   position: relative;
+  .section-header {
+    text-align: left;
+  }
   &__ornament {
     position: absolute;
     max-width: 900px;
-    right: -30%;
-    bottom: -323px;
+    right: -20%;
+    top: 0;
   }
   .section-header {
     z-index: 1;
   }
   &__text {
     z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 40px;
+    max-width: 550px;
   }
   &__img {
     max-width: 250px;
   }
   .certificate-gallery {
-    .button {
-      color: gray;
-      z-index: 1;
+    .button.invert {
+      font-size: 14px;
+      margin-left: 40px;
+      margin-top: 30px;
     }
   }
 }

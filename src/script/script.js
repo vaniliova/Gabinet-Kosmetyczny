@@ -88,4 +88,28 @@ $(() => {
         //     sliderNews.goToNextSlide();
         // });
 
+        //offer slider
+
+        let pricesBox = $(".salon-prices");
+        let offerBox = $(".offer__type");
+        let backBtn = $(".prices-back");
+
+        offerBox.on('click', function() {
+          console.log('klik działa');
+          $('.bg').addClass('dark');
+          pricesBox.animate({
+            right: "10%",
+          },500)
+          // $('body').
+          backBtn.on('click', function(e) {
+            e.preventDefault();
+            $('.bg').removeClass('dark');
+            pricesBox.animate({
+              right: "-100%",
+            },500)
+          })
+        });
+
+
+
 }); //end of DOMContentLoaded

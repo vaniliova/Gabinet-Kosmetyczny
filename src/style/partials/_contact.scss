@@ -1,21 +1,29 @@
 .contact {
   background: $bg;
   margin-top: 50px;
-  position: relative;
-  .contact {
+  padding-bottom: 100px;
 
-    &__bg-img {
-      position: absolute;
-      top: 40%;
-      left: 50%;
-      transform: translateX(-50px);
+  &__box {
+    &__wrapper {
+      width: 60px;
+      height: 30px;
+      margin: 10px 0;
     }
-    .contact__header {
-      text-align: center;
+    &__img {
+      max-width: 100%;
+      height: auto;
+    }
+    &__paragraph {
       font-family: 'Montserrat', sans-serif;
-      font-size: 32px;
-      padding: 100px 50px 50px;
+      font-size: 16px;
+      line-height: 30px;
       text-transform: uppercase;
+    }
+    &__link {
+      height: 60px;
+    }
+    &__text {
+      height: 60px;
     }
   }
 }

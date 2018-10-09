@@ -1,6 +1,8 @@
 {{> partials/header.hbs.html pageName="page-index"}}
 {{> partials/navigation.hbs.html pageName="page-index"}}
 
+<div class="bg"></div>
+
 <section class="hero">
   <div class="container">
     <div class="row">
@@ -94,13 +96,13 @@
         <h2 class="col-12 section-header">O mnie</h2>
 
         <div class="col-12 d-flex flex-column flex-md-row justify-content-md-center align-items-md-center">
-          <img src="/img/kosmetolog.jpg" alt="mgr Sylwia Shawket" class="about__img col-4">
+          <img src="/img/portrait2.jpg" alt="mgr Sylwia Shawket" class="about__img col-4">
           <div class="about__text col-8">
             <div class="about__text__paragraph">
-              Nazywam sie Sylwia i od 10 lat prowadze własny, jednoosobowy Gabinet Kosmetyczny. Praca w pojedynkę sprawia, że jestem w stanie całkowicie poświęcić swoja uwagę na klientce oferując jej przez to najwyższą jakość usługi stwarzając jednocześnie prywatną i relaksująca atmosferę podczas zabiegu.
+              Nazywam sie Sylwia i od 10 lat prowadze własny, jednoosobowy Gabinet Kosmetyczny. Praca w pojedynkę sprawia, że jestem w stanie całkowicie poświęcić swoja uwagę klientce oferując przez to najwyższą jakość usługi i stworzyć jednocześnie prywatną i relaksująca atmosferę podczas zabiegu.
             </div>
             <div class="about__text__paragraph">
-              Zajmuje się kosmetologią, trychologią, depilacją i wszelaka pielęgnację skóry twarzy jak i ciała. Dodatkowo w moim Gabinecie oferuję manicure pielęgnacyjny, malowanie paznokci jak i hybrydę ze zdobieniami.
+              Zajmuje się kosmetologią, trychologią, depilacją oraz pielęgnację skóry twarzy jak i ciała. Dodatkowo w moim Gabinecie oferuję manicure pielęgnacyjny, malowanie paznokci jak i hybrydę ze zdobieniami.
               Zapraszam!
             </div>
           </div>
@@ -115,22 +117,20 @@
     <div class="row">
 
         <h2 class="col-12 section-header">Doświadczenie</h2>
-        <div class="col-12 d-flex flex-column flex-md-row justify-content-md-center align-items-md-center">
+        <div class="col-12 d-flex flex-column justify-content-start align-items-start">
           <div class="experience__text col-8">
             <div class="experience__text__paragraph">
-              Moje doświadczenie w branży kosmetycznej jest wypadkową 25letniej pray zawodowej, nieustającego samoszkolenia oraz udziale w niezliczonej liczbi ekoferencji poświęconych tematyce piękna.
+              Moje doświadczenie w branży kosmetycznej jest wypadkową 25-letniej pracy zawodowej, nieustającego samoszkolenia oraz udziale w niezliczonej liczbie koferencji i warsztatópoświęconych tematyce piękna, zdrowia i urody.
             </div>
           </div>
 
           <div class="certificate-gallery">
-            <button class="button">
-              Zobacz galerię certyfikatów
+            <button class="button invert">
+              Galeria certyfikatów
             </button>
           </div>
-
-          <img src="../img/face.jpg" alt="" class="experience__ornament">
         </div>
-
+        <img src="../img/face.jpg" alt="" class="experience__ornament">
     </div>
   </div>
 </section>
@@ -145,32 +145,50 @@
         <div class="row">
 
           <div class="col-12 col-md-6 col-lg-4 offer__type">
-            <img src="../img/twarz1.jpg" alt="" class="offer__type__img">
+            <div class="offer__type__box">
+              <img src="../img/twarz1.jpg" alt="" class="offer__type__img">
+
+            </div>
             <h3 class="offer__type__name">Twarz</h3>
           </div>
 
           <div class="col-12 col-md-6 col-lg-4 offer__type">
-            <img src="../img/paznokcie1.jpg" alt="" class="offer__type__img">
+            <div class="offer__type__box">
+              <img src="../img/paznokcie1.jpg" alt="" class="offer__type__img">
+
+            </div>
             <h3 class="offer__type__name">Paznokcie</h3>
           </div>
 
           <div class="col-12 col-md-6 col-lg-4 offer__type">
-            <img src="../img/depilacja1.jpg" alt="" class="offer__type__img">
+            <div class="offer__type__box">
+              <img src="../img/depilacja1.jpg" alt="" class="offer__type__img">
+
+            </div>
             <h3 class="offer__type__name">Depilacja</h3>
           </div>
 
           <div class="col-12 col-md-6 col-lg-4 offer__type">
-            <img src="../img/cialo1.jpg" alt="" class="offer__type__img">
+            <div class="offer__type__box">
+              <img src="../img/cialo1.jpg" alt="" class="offer__type__img">
+
+            </div>
             <h3 class="offer__type__name">Ciało</h3>
           </div>
 
           <div class="col-12 col-md-6 col-lg-4 offer__type">
-            <img src="../img/konsultacje1.jpg" alt="" class="offer__type__img">
+            <div class="offer__type__box">
+              <img src="../img/konsultacje1.jpg" alt="" class="offer__type__img">
+
+            </div>
             <h3 class="offer__type__name">Konsultacje</h3>
           </div>
 
           <div class="col-12 col-md-6 col-lg-4 offer__type">
-            <img src="../img/warsztaty1.jpg" alt="" class="offer__type__img">
+            <div class="offer__type__box">
+              <img src="../img/warsztaty1.jpg" alt="" class="offer__type__img">
+
+            </div>
             <h3 class="offer__type__name">Warsztaty</h3>
           </div>
 
@@ -179,7 +197,56 @@
 
     </div>
   </div>
+
+  <section class="salon-prices" id="prices">
+    <div class="container">
+      <div class="row">
+
+        <h2 class="col-12 section-header">Paznokcie</h2>
+        
+        <a href="#" class="prices-back"><img src="../img/arrow-left.svg" alt="">Powrót</a>
+
+        <div class="col-8 offset-2">
+          <div class="treatment d-flex justify-content-around align-items-center">
+            <span class="treatment__name">Hybryda</span>
+            <span class="treatment__price">60zł</span>
+          </div>
+
+          <div class="treatment d-flex justify-content-around align-items-center">
+            <span class="treatment__name">Hybryda</span>
+            <span class="treatment__price">60zł</span>
+          </div>
+
+          <div class="treatment d-flex justify-content-around align-items-center">
+            <span class="treatment__name">Hybryda</span>
+            <span class="treatment__price">60zł</span>
+          </div>
+
+          <div class="treatment d-flex justify-content-around align-items-center">
+            <span class="treatment__name">Hybryda</span>
+            <span class="treatment__price">60zł</span>
+          </div>
+
+          <div class="treatment d-flex justify-content-around align-items-center">
+            <span class="treatment__name">Hybryda</span>
+            <span class="treatment__price">60zł</span>
+          </div>
+
+          <div class="treatment d-flex justify-content-around align-items-center">
+            <span class="treatment__name">Hybryda</span>
+            <span class="treatment__price">60zł</span>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
 </section>
+
+
 
 <section class="recomendation" id="opinions">
   <div class="container">
@@ -190,35 +257,35 @@
       <img src="../img/chevron-left.svg" alt="W lewo" class="goToPrevSlide">
       <ul class="recomendation__list" id="lightSlider-opinions">
         <li class="recomendation__list__item">
-          <img src="" alt="" class="recomendation__list__item__img">
+          <img src="../img/cudzyslow.svg" alt="" class="recomendation__list__item__img">
           <h3 class="recomendation__list__item__name">Anna Sokołowska</h3>
           <p class="recomendation__list__item__text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, ut praesentium. Perspiciatis impedit quo laudantium dolores mollitia explicabo totam voluptates quaerat, ut maxime ipsam ratione neque accusantium praesentium vero voluptas?
           </p>
         </li>
         <li class="recomendation__list__item">
-          <img src="" alt="" class="recomendation__list__item__img">
+          <img src="../img/cudzyslow.svg" alt="" class="recomendation__list__item__img">
           <h3 class="recomendation__list__item__name">Anna Sokołowska</h3>
           <p class="recomendation__list__item__text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, ut praesentium. Perspiciatis impedit quo laudantium dolores mollitia explicabo totam voluptates quaerat, ut maxime ipsam ratione neque accusantium praesentium vero voluptas?
           </p>
         </li>
         <li class="recomendation__list__item">
-          <img src="" alt="" class="recomendation__list__item__img">
+          <img src="../img/cudzyslow.svg" alt="" class="recomendation__list__item__img">
           <h3 class="recomendation__list__item__name">Anna Sokołowska</h3>
           <p class="recomendation__list__item__text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, ut praesentium. Perspiciatis impedit quo laudantium dolores mollitia explicabo totam voluptates quaerat, ut maxime ipsam ratione neque accusantium praesentium vero voluptas?
           </p>
         </li>
         <li class="recomendation__list__item">
-          <img src="" alt="" class="recomendation__list__item__img">
+          <img src="../img/cudzyslow.svg" alt="" class="recomendation__list__item__img">
           <h3 class="recomendation__list__item__name">Anna Sokołowska</h3>
           <p class="recomendation__list__item__text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, ut praesentium. Perspiciatis impedit quo laudantium dolores mollitia explicabo totam voluptates quaerat, ut maxime ipsam ratione neque accusantium praesentium vero voluptas?
           </p>
         </li>
         <li class="recomendation__list__item">
-          <img src="" alt="" class="recomendation__list__item__img">
+          <img src="../img/cudzyslow.svg" alt="" class="recomendation__list__item__img">
           <h3 class="recomendation__list__item__name">Anna Sokołowska</h3>
           <p class="recomendation__list__item__text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, ut praesentium. Perspiciatis impedit quo laudantium dolores mollitia explicabo totam voluptates quaerat, ut maxime ipsam ratione neque accusantium praesentium vero voluptas?
@@ -235,26 +302,39 @@
   <div class="container">
     <div class="row">
 
-      <img src="../img/footer-logo.png" alt="" class="contact__bg-img">
-
       <h2 class="col-12 section-header">Kontakt</h2>
 
-      <p class="contact__paragraph">
-        Zadzwoń i umów się na wizytę!
-      </p>
-
-      <div class="contact__phone">
-        <a href="tel:604970316" class="contact__phone__link">tel: 604 970 316</a>
+      <div class="col-12 col-md-4 contact__box d-flex flex-column justify-content-center align-items-center">
+        <div class="contact__box__wrapper">
+          <img src="../img/eye.svg" alt="" class="col-12 contact__box__img">
+        </div>
+        <p class="contact__box__paragraph">
+          Tu mnie znajdziesz
+        </p>
+        <a href="" class="contact__box__link"><img src="../img/facebook.svg" alt="" class="col-12 contact__box__img"> </a>
       </div>
 
-      <div class="contact__address">
-        <span class="contact__address__line">ul. Piotrkowska 24</span>
-        <span class="contact__address__line">93-000 Łódź</span>
+      <div class="col-12 col-md-4 contact__box d-flex flex-column justify-content-center align-items-center">
+        <div class="contact__box__wrapper">
+          <img src="../img/phone-white.svg" alt="" class="col-12 contact__box__img">
+        </div>
+        <p class="contact__box__paragraph">
+          Umów się na wizytę!
+        </p>
+        <a href="tel:604970316" class="contact__box__link">604 970 316</a>
       </div>
 
-      <div class="contact__add">
-        <p class="contact__add__paragraph">
-          Gabinet znajduje sie w bramie po lewej stronie na wysokości Fielmanna i Magdy
+      <div class="col-12 col-md-4 contact__box d-flex flex-column justify-content-center align-items-center">
+        <div class="contact__box__wrapper">
+          <img src="../img/map-pin.svg" alt="" class="col-12 contact__box__img">
+        </div>
+        <p class="contact__box__paragraph">
+          Odwiedź mnie!
+        </p>
+        <p class="contact__box__text">
+          ul. Piotrkowska 24
+          <!-- <br> -->
+          <!-- Łódź -->
         </p>
       </div>
 
